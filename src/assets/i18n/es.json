@@ -1,0 +1,62 @@
+{
+    "idiomas":{
+        "en":"Ingles",
+        "es":"Español"
+    },
+    "titulos":{
+        "portafolio":"PORTAFOLIO",
+        "habilidades":"HABILIDADES",
+        "tecnologia":"TECNOLOGIA",
+        "trabajo":"TRABAJO",
+        "proyectos":"PROYECTOS",
+        "otros":"OTROS PROYECTOS",
+        "educacion":"EDUCACION"
+    },
+    "presentacion":{
+        "saludo":"Hola Mundo!",
+        "soy":"Soy ",
+        "desarrollador":" un Desarrollador Web",
+        "puesto1":"Desarrollador Frontend",
+        "puesto2":"Desarrollador Backend",
+        "discurso":"Mi nombre es Anthony González Solano, tengo una carrera de informatica empresarial en la que me desarrolle no solo como un desarrollador web, asi no, tambien desarrolle habilidades para la gestion de proyectos y finanzas. Soy el tipo de desarrollador que puede cambiar facilmente de tecnologia y aprender por si mismo lo necesario con respecto a seguridad y buenas practicas de la misma, por lo que he utilizado una variedad de tecnologias."
+    },
+    "habilidades":{
+        "lenguajes":"Leanguajes de programacion",
+        "bd":"Bases de datos"
+    },
+    "trabajos":{
+        "texto1":"Tecnologias usadas:",
+        "texto2":"Acerca del trabajo:",
+        "1":{
+            "puesto":"Desarrollador Frontend",
+            "institucion":"Universidad de Costa Rica - Costa Rica",
+            "descripcion":"En mi rol como Desarrollador Frontend, he destacado por mi dedicación al mantenimiento y actualización de un sitio web focalizado en la exhibición de proyectos y recopilación de datos históricos. Mediante la utilización de tecnologías como React, HTML y CSS, contribuí significativamente a la mejora tanto de la funcionalidad como del diseño del sitio.<br /><br />Además, implementé rigurosos procedimientos y controles de seguridad con el propósito de resguardar el sitio web de posibles amenazas, asegurando la integridad de los datos alojados. Mi experiencia incluyó la colaboración efectiva con equipos multidisciplinarios, facilitando la recopilación e incorporación de cambios de contenido para proporcionar a los visitantes información oportuna y relevante.<br /><br />Asimismo, mantuve una evaluación continua del rendimiento del sitio, llevando a cabo ajustes fundamentados en lecciones aprendidas. A través del seguimiento meticuloso del tráfico del sitio web, el comportamiento de los usuarios y las métricas de participación mediante herramientas de análisis, implementé mejoras proactivas para garantizar una experiencia óptima para los usuarios.",
+            "mes":"Octubre"
+        },
+        "2":{
+            "puesto":"Desarrollador de Software Full Stack",
+            "institucion":"Universidad de Costa Rica - Costa Rica",
+            "descripcion":"En mi papel como Desarrollador de Software Full Stack en la Universidad de Costa Rica, desempeñé un papel integral al contribuir tanto al desarrollo backend con Django como al desarrollo frontend con React Redux.<br /><br />Mi labor consistió en proporcionar soluciones y opciones para la implementación, con el objetivo de mejorar la eficiencia y funcionalidad del software. Además, facilité la comunicación entre los equipos de desarrollo, asegurando una colaboración efectiva para alcanzar los objetivos del proyecto de manera eficiente.<br /><br />Participé activamente en revisiones de código, abordé problemas técnicos de manera proactiva y me aseguré de que el software cumpliera con estándares de alta calidad. Mi enfoque se centró en mantener la integridad técnica del proyecto, contribuyendo a la optimización continua y al cumplimiento de los requisitos establecidos.",
+            "mes":"Julio"
+        }
+    },
+    "proyectos":{
+        "texto1":"Tecnologias:",
+        "texto2":"GitHub del proyecto",
+        "1":{
+            "titulo":"Portafolio",
+            "descripcion":"aun no la hago"
+        }
+
+    },
+    "educacion":{
+        "1":{
+            "grado":"Bachillerato en Informatica Empresarial",
+            "institucion":"Universidad de Costa Rica"
+        },
+        "2":{
+            "grado":"Certificado de Scrum fundamentals",
+            "institucion":"SCRUM study"
+        }
+    }
+}

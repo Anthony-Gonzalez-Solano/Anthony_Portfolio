@@ -1,0 +1,18 @@
+.course-container{
+    padding: 10px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.085);
+    border-radius: 15px;
+}
+
+.course-container h4{
+    margin-bottom: 0;
+    width: 70%;
+}
+
+.course-container .date{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}

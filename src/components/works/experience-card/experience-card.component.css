@@ -1,0 +1,71 @@
+.container{
+    margin-top: -5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 0.5vw;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.container:hover{
+    background: rgba(255, 255, 255, 0.127);
+    border-radius: 10px;
+}
+
+.buldding{
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.659);
+}
+
+.container hr{
+    width: 30%;
+    margin: 2px;
+}
+
+.expander-div {
+    transition: 0.5s;
+    max-height: 0;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+
+.extended {
+    transition: 1s;
+    max-height: 2000px; /* Puedes ajustar este valor según tus necesidades */
+    padding-bottom: 0px;
+}
+
+.technologies{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    margin-left: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.tittle{
+    margin-top: 10px;
+    color: rgba(241, 248, 250, 0.54);
+    margin-bottom: 8px;
+}
+
+.technologies span{
+    background: #edf6f9;
+    color: #3b3b3b;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.description{
+    width: 90%;
+    margin-left: 2vw;
+    margin-top: 0px;
+}
+
+.month{
+    color: rgba(255, 255, 255, 0.196);
+    margin-bottom: 5px;
+}

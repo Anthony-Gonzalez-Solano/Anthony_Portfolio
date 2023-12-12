@@ -1,0 +1,41 @@
+.skills svg{
+    width: 10vw;
+  }
+  .skills{  
+    padding-top: 30%;
+    position: relative;
+    z-index: 10;
+  }
+  .skills .svg-container{
+    min-height: 20vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+    margin-top: 30px;
+  }
+  .skills .svg-titles span{
+    font-size: 5vw;
+    color: #efefef;
+    left: 1vw;
+  }
+
+
+  @media (max-width: 767px) {
+    .skills .svg-container{
+      min-height: 15vh;
+      margin-top: 0px;
+    }
+  }
+  @media (min-width: 768px) {
+    .skills svg{
+      width: 7vw;
+    }
+    .skills .svg-titles span{
+      font-size: 4vw;
+      color: #efefef;
+      margin-left: 2vw;
+    }
+  }

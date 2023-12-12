@@ -1,0 +1,18 @@
+<div class="container" (click)="showSwitch()">
+  <span class="rol">{{rol}}</span>
+  <hr>
+  <span class="buldding">{{company}}</span>
+  <div class="expander-div" [ngClass]="{'extended':show==true}">
+    <div class="tittle">{{'trabajos.texto1' | translate}}</div>
+    <div class="technologies">
+      <span *ngFor="let tech of technologies">
+        {{tech}}
+      </span>
+    </div>
+    <div class="tittle">{{'trabajos.texto2' | translate}}</div>
+    <p class="description" [innerHTML]="description"></p>
+  </div>
+  <span class="month">
+    {{month}}
+  </span>
+</div>

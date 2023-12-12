@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin_Sans';
+    user-select: none;
+    background-color: #191919;
+}
+
+.modal-backdrop {
+  z-index: -1;
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar {
+    width: 5px;
+  }
+  html::-webkit-scrollbar-thumb {
+    background-color: #efefef2b;
+    border-radius: 6px;
+  }
+  html::-webkit-scrollbar-track {
+    background-color: #202020;
+  }
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #efefef2b #202020;
+  }
+  html:hover {
+    scrollbar-color: #efefef2b white;
+  }
+@font-face {
+    font-family: 'Josefin_Sans';
+    src: url('assets/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,115 @@
+.project-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    z-index: 30;
+}
+
+.project-container svg:hover{
+    transform: scale(1.2);
+}
+
+.project-container h3{
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.project-container h5{
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: #edf6f97c;
+}
+.project-container img{
+    width: 100%;
+    height: 50%;
+    background: black;
+    border-radius: 15px;
+    margin-top: 6%;
+}
+
+.modal{
+    background: rgba(0, 0, 0, 0.458);
+    backdrop-filter: blur(3px);
+}
+
+.modal-content{
+    background-color: #33323291;
+    backdrop-filter: blur(10px);
+    z-index: 1055;
+}
+.modal::-webkit-scrollbar {
+    width: 5px;
+  }
+  .modal::-webkit-scrollbar-thumb {
+    background-color: #efefef2b;
+    border-radius: 6px;
+  }
+  .modal::-webkit-scrollbar-track {
+    background-color: #202020;
+  }
+  .modal {
+    scrollbar-width: thin;
+    scrollbar-color: #efefef2b #202020;
+  }
+  .modal:hover {
+    scrollbar-color: #efefef2b white;
+  }
+.modal-header button{
+    background: #ffffff var(--bs-btn-close-bg) center/1em auto no-repeat;
+    opacity: 0.6;
+}
+
+.technologies{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.technologies span{
+    background: #edf6f9;
+    color: #3b3b3b;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.carousel{
+    border: 1px solid #edf6f97b;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.gitlink{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: right;
+    margin-top: 5px;
+}
+
+.gitlink svg{
+    width: 2rem;
+}
+
+.gitlink a{
+    font-size: 1rem;
+    color: #edf6f9;
+    transition: .3s;
+}
+.gitlink a:hover{
+    color: #3a7ca5;
+    background-image: linear-gradient(to right, #00d8fa, #00fee0);
+    color: transparent; 
+    background-clip: text;
+}
+
+h6{
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,116 @@
+.helloworld{
+  position: relative;
+  z-index: 10;
+}
+.helloworld .iam{
+    margin-top: 12%;
+    margin-left: 5%;
+    font-size: 4vw;
+}
+.helloworld .positions{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 2.5vw;
+    display: flex; 
+    text-align: center;
+}
+.helloworld .contact {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 5vh;
+  margin-right: 4vw;
+  font-size: 1.5vw;
+}
+.helloworld .contact img, svg {
+  width: 1.7vw;
+  margin-left: 1vw;
+}
+.helloworld .contact span{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.helloworld .contact img{
+  filter: invert(100%);
+}
+.helloworld .contact a{
+  color: #efefef;
+  transition: .3s;
+}
+.helloworld .contact a:hover{
+  color: #3a7ca5;
+  background-image: linear-gradient(to right, #00d8fa, #00fee0);
+  color: transparent; 
+  background-clip: text;
+}
+.helloworld .mail{
+  transition: .3s;
+  cursor: pointer;
+}
+.helloworld .mail:hover{
+  color: #3a7ca5;
+  background-image: linear-gradient(to right, #00d8fa, #00fee0);
+  color: transparent; 
+  background-clip: text;
+}
+
+.helloworld .about-me{
+    font-size: 1.7vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 13%;
+    display: flex;
+    gap: 30px;
+}
+.helloworld .about-me img{
+    width: 24vw;
+    position: relative;
+    z-index: 10;
+}
+.helloworld .about-me .my-image{
+ background: #00000030;
+ padding: 7px;
+ position: relative;
+}
+.helloworld .about-me .my-image::before{
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    width: 24vw;
+    height: calc(24vw * 1.5);
+    background: #0000004e;
+    z-index: 2;
+}
+
+.important-text{
+    color: #3a7ca5;
+    background-image: linear-gradient(to right, #00d8fa, #00fee0);
+    color: transparent; 
+    background-clip: text;
+}
+
+
+@media (max-width: 767px) {
+  .helloworld .iam{
+    font-size: 5vw;
+  }
+  .helloworld .positions{
+    font-size: 3.5vw;
+  }
+  .helloworld .contact {
+    font-size: 3vw;
+  }
+  .helloworld .contact img, svg {
+    width: 3.4vw;
+    margin-left: 2vw;
+  }
+  .helloworld .about-me{
+    font-size: 2.7vw;
+  }
+}
+@media (min-width: 768px) {
+}

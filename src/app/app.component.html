@@ -1,0 +1,50 @@
+<div class="main-container">
+  <!-- seccion de presentacion ----------------------------------------------------------------------------------------- -->
+  <div class="seccion">
+    <span class="seccion-tittle">
+      {{'titulos.portafolio' | translate}}
+    </span>
+    <div class="lenguage-buttons-position">
+      <div class="lenguage-buttons">
+        <label (click)="switchLenguage('es')">
+          <input type="radio" id="value-1" name="value-radio" value="value-1" [checked]="radioChecked=='es'">
+          <span>{{'idiomas.es' | translate}}</span>
+        </label>
+        <label (click)="switchLenguage('en')">
+          <input type="radio" id="value-2" name="value-radio" value="value-2" [checked]="radioChecked=='en'">
+          <span>{{'idiomas.en' | translate}}</span>
+        </label>
+        <span class="selection"></span>
+      </div>
+    </div>
+    <app-about-me />
+  </div>
+  <!-- seccion de habilidades ------------------------------------------------------------------------------------------- -->
+  <div class="seccion">
+    <span class="seccion-tittle">
+      {{'titulos.tecnologia' | translate}}
+    </span>
+    <app-technologi />
+  </div>
+  <!-- seccion de trabajos ------------------------------------------------------------------------------------------------ -->
+  <div class="seccion">
+    <span class="seccion-tittle">
+      {{'titulos.trabajo' | translate}}
+    </span>
+    <app-works />
+  </div>
+  <!-- seccion de proyectos ---------------------------------------------------------------------------------------------- -->
+  <div class="seccion">
+    <span class="seccion-tittle">
+      {{'titulos.proyectos' | translate}}
+    </span>
+    <app-projects-gallery />
+  </div>
+  <!-- seccion de educacion ------------------------------------------------------------------------------------------------ -->
+  <div class="seccion">
+    <span class="seccion-tittle">
+      {{'titulos.educacion' | translate}}
+    </span>
+    <app-education />
+  </div>
+</div>

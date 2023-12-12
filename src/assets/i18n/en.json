@@ -1,0 +1,27 @@
+{
+    "idiomas":{
+        "en":"Inglish",
+        "es":"Spanish"
+    },
+    "titulos": {
+        "portafolio": "PORTFOLIO",
+        "habilidades": "SKILLS",
+        "tecnologia": "TECHNOLOGY",
+        "trabajo": "WORK",
+        "proyectos": "PROJECTS",
+        "otros": "OTHER PROJECTS",
+        "educacion": "EDUCATION"
+      },
+    "presentacion": {
+        "saludo": "Hello World!",
+        "soy": "I am ",
+        "desarrollador": " a Web Developer",
+        "puesto1": "Frontend Developer",
+        "puesto2": "Backend Developer",
+        "discurso": "My name is Anthony González Solano. I have a degree in Business Informatics where I developed not only as a web developer but also acquired skills for project management and finance. I am the kind of developer who can easily switch between technologies and self-learn what is necessary regarding security and best practices. As a result, I have worked with a variety of technologies."
+      },
+      "habilidades": {
+        "lenguajes": "Programming Languages",
+        "bd": "Databases"
+      }
+}
