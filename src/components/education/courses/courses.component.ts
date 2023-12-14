@@ -10,10 +10,18 @@ export class CoursesComponent implements OnInit {
   @Input() degree!: String;
   @Input() institute!: String;
   @Input() date!: String;
+  @Input() certificate!: String;
+  @Input() id!: String;
+
+  show: boolean = false;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  switchShow(){
+    this.show = !this.show;
   }
 
 }

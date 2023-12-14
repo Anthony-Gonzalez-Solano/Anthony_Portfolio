@@ -1,4 +1,4 @@
-.skills svg{
+.skills img{
     width: 10vw;
   }
   .skills{  
@@ -18,7 +18,7 @@
   }
   .skills .svg-titles span{
     font-size: 5vw;
-    color: #efefef;
+    color: var(--letter-color);
     left: 1vw;
   }
 
@@ -30,12 +30,66 @@
     }
   }
   @media (min-width: 768px) {
-    .skills svg{
+    .skills img{
       width: 7vw;
     }
     .skills .svg-titles span{
       font-size: 4vw;
-      color: #efefef;
+      color: var(--letter-color);
       margin-left: 2vw;
     }
+  }
+
+
+  /* sombreado para los svg */
+  #css{
+    filter: drop-shadow(0 0 10px #0076b2b0);
+  }
+  #html5{
+    filter: drop-shadow(0 0 10px #f3462eb0);
+  }
+  #js{
+    filter: drop-shadow(0 0 10px #f7d864b0);
+  }
+  #ts{
+    filter: drop-shadow(0 0 10px #007fc7b0);
+  }
+  #python{
+    filter: drop-shadow(2px 2px 4px #ffcb5bc7) drop-shadow(-2px -2px 4px #1b719cc9);
+  }
+  #cshard{
+    filter: drop-shadow(0 0 10px #6c2676b0);
+  }
+  #c{
+    filter: drop-shadow(0 0 10px #005d98b0);
+  }
+  #angular{
+    filter: drop-shadow(0 0 10px #d0423db0);
+  }
+  #react{
+    filter: drop-shadow(0 0 10px #1bddf8b0);
+  }
+  #redux{
+    filter: drop-shadow(0 0 10px #7551b7b0);
+  }
+  #express{
+    filter: drop-shadow(0 0 10px #ffffffb0);
+  }
+  #dotnet{
+    filter: drop-shadow(0 0 10px #623c92b0);
+  }
+  #django{
+    filter: drop-shadow(0 0 10px #ffffffb0);
+  }
+  #mssql{
+    filter: drop-shadow(0 0 10px #ffffffb0);
+  }
+  #mysql{
+    filter: drop-shadow(0 0 10px #006b92);
+  }
+  #postgresql{
+    filter: drop-shadow(0 0 10px #18698eb0);
+  }
+  #Kotlin{
+    filter: drop-shadow(0 0 10px #7e6fadb0);
   }

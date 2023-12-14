@@ -1,13 +1,22 @@
 .course-container{
     padding: 10px;
     position: relative;
-    background: rgba(255, 255, 255, 0.085);
     border-radius: 15px;
+    box-shadow: 0 0 10px var(--firts-shadow-color);
+    transition: .3s all;
+    cursor: pointer;
+}
+.course-container:hover{
+    background: var(--firts-transparent-color);
 }
 
 .course-container h4{
     margin-bottom: 0;
     width: 70%;
+}
+.course-container h6{
+    color: var(--letter-ligth-color);
+    margin-bottom: 0;
 }
 
 .course-container .date{
@@ -15,4 +24,18 @@
     top: 15px;
     right: 15px;
 
+}
+
+.extended-div{
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: 1s ease;
+}
+.extended{
+    max-height: 2000px;
+}
+
+.extended-div img{
+    width: 100%;
 }

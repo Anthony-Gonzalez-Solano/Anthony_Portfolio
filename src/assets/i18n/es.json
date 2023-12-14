@@ -1,62 +1,63 @@
 {
-    "idiomas":{
-        "en":"Ingles",
-        "es":"Español"
+    "idiomas": {
+        "en": "Inglés",
+        "es": "Español"
     },
-    "titulos":{
-        "portafolio":"PORTAFOLIO",
-        "habilidades":"HABILIDADES",
-        "tecnologia":"TECNOLOGIA",
-        "trabajo":"TRABAJO",
-        "proyectos":"PROYECTOS",
-        "otros":"OTROS PROYECTOS",
-        "educacion":"EDUCACION"
+    "titulos": {
+        "portafolio": "PORTAFOLIO",
+        "habilidades": "HABILIDADES",
+        "tecnologia": "TECNOLOGÍA",
+        "trabajo": "TRABAJO",
+        "proyectos": "PROYECTOS",
+        "otros": "OTROS PROYECTOS",
+        "educacion": "EDUCACIÓN"
     },
-    "presentacion":{
-        "saludo":"Hola Mundo!",
-        "soy":"Soy ",
-        "desarrollador":" un Desarrollador Web",
-        "puesto1":"Desarrollador Frontend",
-        "puesto2":"Desarrollador Backend",
-        "discurso":"Mi nombre es Anthony González Solano, tengo una carrera de informatica empresarial en la que me desarrolle no solo como un desarrollador web, asi no, tambien desarrolle habilidades para la gestion de proyectos y finanzas. Soy el tipo de desarrollador que puede cambiar facilmente de tecnologia y aprender por si mismo lo necesario con respecto a seguridad y buenas practicas de la misma, por lo que he utilizado una variedad de tecnologias."
+    "presentacion": {
+        "saludo": "¡Hola Mundo!",
+        "soy": "Soy ",
+        "desarrollador": " un Desarrollador Web",
+        "puesto1": "Desarrollador Frontend",
+        "puesto2": "Desarrollador Backend",
+        "discurso": "Mi nombre es Anthony González Solano, tengo una carrera en informática empresarial en la que me he desarrollado no solo como desarrollador web, sino también adquiriendo habilidades para la gestión de proyectos y finanzas. Soy el tipo de desarrollador que puede cambiar fácilmente de tecnología y aprender por sí mismo lo necesario con respecto a seguridad y buenas prácticas. Por lo tanto, he utilizado una variedad de tecnologías."
     },
-    "habilidades":{
-        "lenguajes":"Leanguajes de programacion",
-        "bd":"Bases de datos"
+    "habilidades": {
+        "lenguajes": "Lenguajes de programación",
+        "bd": "Bases de datos"
     },
-    "trabajos":{
-        "texto1":"Tecnologias usadas:",
-        "texto2":"Acerca del trabajo:",
-        "1":{
-            "puesto":"Desarrollador Frontend",
-            "institucion":"Universidad de Costa Rica - Costa Rica",
-            "descripcion":"En mi rol como Desarrollador Frontend, he destacado por mi dedicación al mantenimiento y actualización de un sitio web focalizado en la exhibición de proyectos y recopilación de datos históricos. Mediante la utilización de tecnologías como React, HTML y CSS, contribuí significativamente a la mejora tanto de la funcionalidad como del diseño del sitio.<br /><br />Además, implementé rigurosos procedimientos y controles de seguridad con el propósito de resguardar el sitio web de posibles amenazas, asegurando la integridad de los datos alojados. Mi experiencia incluyó la colaboración efectiva con equipos multidisciplinarios, facilitando la recopilación e incorporación de cambios de contenido para proporcionar a los visitantes información oportuna y relevante.<br /><br />Asimismo, mantuve una evaluación continua del rendimiento del sitio, llevando a cabo ajustes fundamentados en lecciones aprendidas. A través del seguimiento meticuloso del tráfico del sitio web, el comportamiento de los usuarios y las métricas de participación mediante herramientas de análisis, implementé mejoras proactivas para garantizar una experiencia óptima para los usuarios.",
-            "mes":"Octubre"
+    "trabajos": {
+        "texto1": "Tecnologías usadas:",
+        "texto2": "Acerca del trabajo:",
+        "1": {
+            "puesto": "Desarrollador Frontend",
+            "institucion": "Universidad de Costa Rica - Costa Rica",
+            "descripcion": "En mi rol como Desarrollador Frontend, he destacado por mi dedicación al mantenimiento y actualización de un sitio web enfocado en la exhibición de proyectos y recopilación de datos históricos. Mediante la utilización de tecnologías como React, HTML y CSS, contribuí significativamente a la mejora tanto de la funcionalidad como del diseño del sitio.<br /><br />Además, implementé rigurosos procedimientos y controles de seguridad con el propósito de resguardar el sitio web de posibles amenazas, asegurando la integridad de los datos alojados. Mi experiencia incluyó la colaboración efectiva con equipos multidisciplinarios, facilitando la recopilación e incorporación de cambios de contenido para proporcionar a los visitantes información oportuna y relevante.<br /><br />Asimismo, mantuve una evaluación continua del rendimiento del sitio, llevando a cabo ajustes fundamentados en lecciones aprendidas. A través del seguimiento meticuloso del tráfico del sitio web, el comportamiento de los usuarios y las métricas de participación mediante herramientas de análisis, implementé mejoras proactivas para garantizar una experiencia óptima para los usuarios.",
+            "mes": "Octubre"
         },
-        "2":{
-            "puesto":"Desarrollador de Software Full Stack",
-            "institucion":"Universidad de Costa Rica - Costa Rica",
-            "descripcion":"En mi papel como Desarrollador de Software Full Stack en la Universidad de Costa Rica, desempeñé un papel integral al contribuir tanto al desarrollo backend con Django como al desarrollo frontend con React Redux.<br /><br />Mi labor consistió en proporcionar soluciones y opciones para la implementación, con el objetivo de mejorar la eficiencia y funcionalidad del software. Además, facilité la comunicación entre los equipos de desarrollo, asegurando una colaboración efectiva para alcanzar los objetivos del proyecto de manera eficiente.<br /><br />Participé activamente en revisiones de código, abordé problemas técnicos de manera proactiva y me aseguré de que el software cumpliera con estándares de alta calidad. Mi enfoque se centró en mantener la integridad técnica del proyecto, contribuyendo a la optimización continua y al cumplimiento de los requisitos establecidos.",
-            "mes":"Julio"
+        "2": {
+            "puesto": "Desarrollador de Software Full Stack",
+            "institucion": "Universidad de Costa Rica - Costa Rica",
+            "descripcion": "En mi papel como Desarrollador de Software Full Stack en la Universidad de Costa Rica, desempeñé un papel integral al contribuir tanto al desarrollo backend con Django como al desarrollo frontend con React Redux.<br /><br />Mi labor consistió en proporcionar soluciones y opciones para la implementación, con el objetivo de mejorar la eficiencia y funcionalidad del software. Además, facilité la comunicación entre los equipos de desarrollo, asegurando una colaboración efectiva para alcanzar los objetivos del proyecto de manera eficiente.<br /><br />Participé activamente en revisiones de código, abordé problemas técnicos de manera proactiva y me aseguré de que el software cumpliera con estándares de alta calidad. Mi enfoque se centró en mantener la integridad técnica del proyecto, contribuyendo a la optimización continua y al cumplimiento de los requisitos establecidos.",
+            "mes": "Julio"
         }
     },
-    "proyectos":{
-        "texto1":"Tecnologias:",
-        "texto2":"GitHub del proyecto",
-        "1":{
-            "titulo":"Portafolio",
-            "descripcion":"aun no la hago"
+    "proyectos": {
+        "boton1":"Ver Código",
+        "boton2":"Ver Página Web",
+        "1": {
+            "titulo": "Portafolio",
+            "descripcion": "Este proyecto de software, denominado 'Portafolio,' se presenta como una representación digital exhaustiva de mi carrera y habilidades como Desarrollador Web. Diseñado para proporcionar una visión completa de mi experiencia y proyectos relevantes, el portafolio se destaca como una plataforma interactiva y visualmente atractiva.<br /><br />En la sección inicial, se da la bienvenida al visitante, seguido de una breve descripción personal que resalta mi enfoque en el desarrollo web, abarcando tanto el Frontend como el Backend.<br /><br />El portafolio se estructura en diversas secciones, entre las que se incluyen una detallada categorización de mis habilidades en diversos lenguajes de programación. Esta segmentación proporciona una visión clara de las competencias técnicas que he desarrollado a lo largo de mi carrera.<br /><br />La sección de experiencia laboral profundiza en roles anteriores, destacando logros significativos. En cuanto a proyectos, el 'Portfolio' mismo se destaca como el proyecto actual. Desarrollado utilizando React para el frontend, este portafolio proporciona una interfaz interactiva y fácil de navegar, permitiendo a los visitantes explorar de manera efectiva mi experiencia y habilidades.<br /><br />Finalmente, el proyecto incluye una sección educativa que detalla mi formación académica, como mi Bachillerato en Informática Empresarial de la Universidad de Costa Rica.",
+            "descripcionCorta":"El 'Portafolio', se presenta como una representación envolvente de habilidades y logros. Diseñado para destacar de manera interactiva mi experiencia y proyectos clave, este portafolio busca proporcionar una visión integral y visualmente atractiva de mi trayectoria en el desarrollo web."
         }
-
     },
-    "educacion":{
-        "1":{
-            "grado":"Bachillerato en Informatica Empresarial",
-            "institucion":"Universidad de Costa Rica"
+    "educacion": {
+        "texto":"Este certificado está a sólo unos días",
+        "1": {
+            "grado": "Bachillerato en Informática Empresarial",
+            "institucion": "Universidad de Costa Rica"
         },
-        "2":{
-            "grado":"Certificado de Scrum fundamentals",
-            "institucion":"SCRUM study"
+        "2": {
+            "grado": "Certificado de Scrum Fundamentals",
+            "institucion": "SCRUM Study"
         }
     }
 }

@@ -1,5 +1,10 @@
-<div class="course-container">
+<div class="course-container" (click)="switchShow()">
   <h4>{{degree}}</h4>
   <h6>{{institute}}</h6>
   <h6 class="date">{{date}}</h6>
+  <div class="extended-div" [ngClass]="{'extended':show==true}">
+    <hr>
+    <img src="{{certificate}}" alt="{{'educacion.texto' | translate}}">
+  </div>
 </div>
+

@@ -31,4 +31,31 @@ export class ExperienceCardComponent implements OnInit {
     this.show = !this.show;
   }
 
+  selectTech(tech: String): String {
+    switch(tech){
+      case 'angular':
+        return '../../../assets/icons/angular.svg';
+      case 'react':
+        return '../../../assets/icons/react.svg';
+      case 'redux':
+        return '../../../assets/icons/redux.svg';
+      case 'express':
+        return '../../../assets/icons/express.svg';
+      case '.net':
+        return '../../../assets/icons/dotnet.svg';
+      case 'django':
+        return '../../../assets/icons/django.svg';
+      case 'mssql':
+        return '../../../assets/icons/mssql.svg';
+      case 'mysql':
+        return '../../../assets/icons/mysql.svg';
+      case 'postgresql':
+        return '../../../assets/icons/postgresql.svg';
+      case 'kotlin':
+        return '../../../assets/icons/kotlin.svg';
+      default:
+        return 'no encontrado';
+    }
+  }
+
 }

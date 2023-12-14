@@ -2,27 +2,17 @@
   <div class="item">
     <app-project 
       [title]="'proyectos.1.titulo' | translate"
-      date="9/12/2023"
-      [images]="['../../../assets/img/projects/portfolio/1.png','../../../assets/img/projects/portfolio/2.png']"
-      [technologie]="['Angular v16','TypeScript','HTML','CSS']"
+      [images]="[
+        '../../../assets/img/projects/portfolio/1.png',
+        '../../../assets/img/projects/portfolio/2.png',
+        '../../../assets/img/projects/portfolio/3.png',
+        '../../../assets/img/projects/portfolio/4.png',
+        '../../../assets/img/projects/portfolio/6.png',]"
+      [technologie]="['angular']"
       [description]="'proyectos.1.descripcion' | translate"
-      gitlikn="https://github.com"
-      id="portfolio1"
+      [little_description]="'proyectos.1.descripcionCorta' | translate"
+      gitlink="https://github.com"
+      id="portfolio"
     />
   </div>
-  <!-- <div class="item">
-    <app-project />
-  </div>
-  <div class="item">
-    <app-project />
-  </div>
-  <div class="item">
-    <app-project />
-  </div>
-  <div class="item">
-    <app-project />
-  </div>
-  <div class="item">
-    <app-project />
-  </div> -->
 </div>

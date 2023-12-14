@@ -1,27 +1,63 @@
 {
-    "idiomas":{
-        "en":"Inglish",
-        "es":"Spanish"
-    },
-    "titulos": {
-        "portafolio": "PORTFOLIO",
-        "habilidades": "SKILLS",
-        "tecnologia": "TECHNOLOGY",
-        "trabajo": "WORK",
-        "proyectos": "PROJECTS",
-        "otros": "OTHER PROJECTS",
-        "educacion": "EDUCATION"
+  "idiomas": {
+      "en": "English",
+      "es": "Spanish"
+  },
+  "titulos": {
+    "portafolio": "PORTFOLIO",
+    "habilidades": "SKILLS",
+    "tecnologia": "TECHNOLOGY",
+    "trabajo": "WORK",
+    "proyectos": "PROJECTS",
+    "otros": "OTHER PROJECTS",
+    "educacion": "EDUCATION"
+  },
+  "presentacion": {
+      "saludo": "Hello World!",
+      "soy": "I am ",
+      "desarrollador": " a Web Developer",
+      "puesto1": "Frontend Developer",
+      "puesto2": "Backend Developer",
+      "discurso": "My name is Anthony González Solano. I have a degree in business informatics where I have developed not only as a web developer but also acquired skills for project management and finance. I am the type of developer who can easily switch between technologies and learn on my own what is necessary regarding security and best practices. Therefore, I have used a variety of technologies."
+  },
+  "habilidades": {
+      "lenguajes": "Programming Languages",
+      "bd": "Databases"
+  },
+  "trabajos": {
+      "texto1": "Used Technologies:",
+      "texto2": "About the Job:",
+      "1": {
+          "puesto": "Frontend Developer",
+          "institucion": "University of Costa Rica - Costa Rica",
+          "descripcion": "In my role as a Frontend Developer, I have stood out for my dedication to the maintenance and update of a website focused on showcasing projects and collecting historical data. Using technologies such as React, HTML, and CSS, I significantly contributed to improving both the functionality and design of the site.<br /><br />In addition, I implemented rigorous security procedures and controls to safeguard the website from potential threats, ensuring the integrity of the hosted data. My experience included effective collaboration with multidisciplinary teams, facilitating the collection and incorporation of content changes to provide visitors with timely and relevant information.<br /><br />Furthermore, I conducted ongoing evaluation of the site's performance, making adjustments based on lessons learned. Through meticulous monitoring of website traffic, user behavior, and engagement metrics using analytical tools, I proactively implemented improvements to ensure an optimal user experience.",
+          "mes": "October"
       },
-    "presentacion": {
-        "saludo": "Hello World!",
-        "soy": "I am ",
-        "desarrollador": " a Web Developer",
-        "puesto1": "Frontend Developer",
-        "puesto2": "Backend Developer",
-        "discurso": "My name is Anthony González Solano. I have a degree in Business Informatics where I developed not only as a web developer but also acquired skills for project management and finance. I am the kind of developer who can easily switch between technologies and self-learn what is necessary regarding security and best practices. As a result, I have worked with a variety of technologies."
-      },
-      "habilidades": {
-        "lenguajes": "Programming Languages",
-        "bd": "Databases"
+      "2": {
+          "puesto": "Full Stack Software Developer",
+          "institucion": "University of Costa Rica - Costa Rica",
+          "descripcion": "In my role as a Full Stack Software Developer at the University of Costa Rica, I played an integral role in contributing to both backend development with Django and frontend development with React Redux.<br /><br />My work involved providing solutions and options for implementation, aiming to improve the efficiency and functionality of the software. Additionally, I facilitated communication between development teams, ensuring effective collaboration to achieve project goals efficiently.<br /><br />I actively participated in code reviews, proactively addressed technical issues, and ensured that the software met high-quality standards. My focus was on maintaining the technical integrity of the project, contributing to continuous optimization and meeting established requirements.",
+          "mes": "July"
       }
+  },
+"proyectos": {
+     "boton1":"View Code",
+     "boton2":"View WebSite",
+      "1": {
+          "titulo": "Portfolio",
+          "descripcion": "This software project, named 'Portfolio,' stands as a comprehensive digital representation of my career and skills as a Web Developer. Crafted to provide a complete overview of my experience and relevant projects, the portfolio stands out as an interactive and visually appealing platform.<br /><br />In the initial section, visitors are welcomed, followed by a brief personal description highlighting my focus on web development, encompassing both Frontend and Backend.<br /><br />The portfolio is structured into various sections, including a detailed categorization of my skills in various programming languages. This segmentation offers a clear insight into the technical competencies I've developed throughout my career.<br /><br />The work experience section delves into previous roles, highlighting significant achievements. As for projects, the 'Portfolio' itself takes center stage as the current project. Developed using React for the frontend, this portfolio provides an interactive and easy-to-navigate interface, enabling visitors to effectively explore my experience and skills.<br /><br />Finally, the project includes an educational section detailing my academic background, such as my Bachelor's in Business Informatics from the University of Costa Rica.",
+          "descripcionCorta":"The 'Portfolio', is presented as an immersive representation of skills and achievements. Designed to interactively highlight my experience and key projects, this portfolio aims to provide a comprehensive and visually appealing overview of my web development career."
+      }
+  },
+  "educacion": {
+    "texto":"this certificate is just a few days away",
+      "1": {
+          "grado": "Bachelor's in Business Informatics",
+          "institucion": "University of Costa Rica"
+      },
+      "2": {
+          "grado": "Scrum Fundamentals Certificate",
+          "institucion": "SCRUM Study"
+      }
+  }
 }

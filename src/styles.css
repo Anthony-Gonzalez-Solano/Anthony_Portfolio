@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     font-family: 'Josefin_Sans';
     user-select: none;
-    background-color: #191919;
+    background-color: var(--firts-color);
 }
 
 .modal-backdrop {
@@ -17,18 +17,21 @@ html::-webkit-scrollbar {
     width: 5px;
   }
   html::-webkit-scrollbar-thumb {
-    background-color: #efefef2b;
+    background-color: #ff762772;
     border-radius: 6px;
   }
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: #ff7627;
+  }
   html::-webkit-scrollbar-track {
-    background-color: #202020;
+    background-color: #001924;
   }
   html {
     scrollbar-width: thin;
-    scrollbar-color: #efefef2b #202020;
+    scrollbar-color: #001924 #202020;
   }
   html:hover {
-    scrollbar-color: #efefef2b white;
+    scrollbar-color: #001924 white;
   }
 @font-face {
     font-family: 'Josefin_Sans';
@@ -38,3 +41,17 @@ html::-webkit-scrollbar {
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body{
+  --firts-color: #001924;
+  --second-color: #002832;
+  --third-color: #003846;
+  --forth-color: #ff7527;
+  --five-color: #ef4207;
+  --letter-color: #7fa5b4;
+  --letter-ligth-color: #4e7a8c;
+  --letter-second-ligth-color: #436577;
+  --firts-transparent-color: #ffffff0b;
+  --firts-shadow-color: #0000003f;
+  --second-shadow-color: #;
+}

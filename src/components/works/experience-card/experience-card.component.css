@@ -8,15 +8,20 @@
     padding: 5px;
     border-radius: 10px;
     transition: .4s;
+    box-shadow: 0px 0px 10px var(--firts-shadow-color);
 }
+.container-extended{
+    background: linear-gradient(0deg, var(--second-color), transparent);
+}
+
 .container:hover{
-    background: rgba(255, 255, 255, 0.127);
+    background: var(--firts-transparent-color);
     border-radius: 10px;
 }
 
 .buldding{
     font-size: .9rem;
-    color: rgba(255, 255, 255, 0.659);
+    color: var(--letter-ligth-color);
 }
 
 .container hr{
@@ -47,16 +52,13 @@
 }
 .tittle{
     margin-top: 10px;
-    color: rgba(241, 248, 250, 0.54);
+    color: var(--letter-color);
     margin-bottom: 8px;
 }
 
-.technologies span{
-    background: #edf6f9;
-    color: #3b3b3b;
-    font-weight: 500;
-    padding: 4px;
-    border-radius: 10px;
+.technologies img{
+    width: 50px;
+    filter: drop-shadow(0 0 4px #ffffff49);
 }
 
 .description{
@@ -66,6 +68,6 @@
 }
 
 .month{
-    color: rgba(255, 255, 255, 0.196);
+    color: var(--letter-second-ligth-color);
     margin-bottom: 5px;
 }

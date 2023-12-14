@@ -10,11 +10,12 @@ declare var window:any;
 export class ProjectComponent implements OnInit {
 
   @Input() title!: String;
-  @Input() date!: String;
   @Input() images!: any[]; 
   @Input() technologie!: String[]; 
   @Input() description!: String;
-  @Input() gitlikn!: String; 
+  @Input() little_description!:String;
+  @Input() gitlink!: String;
+  @Input() link!: String;
   @Input() id!: String;
 
   modal:any;
@@ -22,6 +23,41 @@ export class ProjectComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.link)
+    console.log(this.gitlink)
+  }
+
+  openNewTab(link: String) {
+    window.open(link, '_blank');
+    console.log(this.link)
+    console.log(this.gitlink)
+  }
+
+  selectTech(tech: String): String {
+    switch(tech){
+      case 'angular':
+        return '../../../assets/icons/angular.svg';
+      case 'react':
+        return '../../../assets/icons/react.svg';
+      case 'redux':
+        return '../../../assets/icons/redux.svg';
+      case 'express':
+        return '../../../assets/icons/express.svg';
+      case '.net':
+        return '../../../assets/icons/dotnet.svg';
+      case 'django':
+        return '../../../assets/icons/django.svg';
+      case 'mssql':
+        return '../../../assets/icons/mssql.svg';
+      case 'mysql':
+        return '../../../assets/icons/mysql.svg';
+      case 'postgresql':
+        return '../../../assets/icons/postgresql.svg';
+      case 'kotlin':
+        return '../../../assets/icons/kotlin.svg';
+      default:
+        return 'no encontrado';
+    }
   }
 }
 
