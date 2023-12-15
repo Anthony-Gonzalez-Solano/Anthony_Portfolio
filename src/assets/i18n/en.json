@@ -3,6 +3,13 @@
       "en": "English",
       "es": "Spanish"
   },
+  "menu":{
+    "inicio":"Home",
+    "habilidades":"Skills",
+    "trabajo":"Work",
+    "proyectos":"Projects",
+    "educacion":"Education"
+},
   "titulos": {
     "portafolio": "PORTFOLIO",
     "habilidades": "SKILLS",

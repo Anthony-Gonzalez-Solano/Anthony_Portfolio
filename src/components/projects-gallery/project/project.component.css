@@ -55,15 +55,35 @@
     padding: 3px;
     text-align: center;
     text-justify: center;
+    transition: .4s;
 }
 .buttons button span{
     font-size: .8rem;
     font-weight: 500;
+    transition: .4s;
 }
-.buttons button img{
+.buttons button svg{
     width: 1.1rem;
+    height: 1.1rem;
     margin-right: 5px;
     box-shadow: none;
+    transition: .4s;
+}
+.buttons button svg path{
+    fill: var(--firts-color);
+}
+.buttons button:hover{
+    background: var(--firts-color);
+}
+.buttons button:hover svg path{
+    fill: var(--forth-color);
+}
+.buttons button:hover svg{
+    filter: drop-shadow(0 0 4px var(--forth-color));
+}
+.buttons button:hover span{
+    color: var(--forth-color);
+    text-shadow: 0 0 4px var(--forth-color);
 }
 
 

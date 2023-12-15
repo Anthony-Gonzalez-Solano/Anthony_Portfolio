@@ -71,3 +71,9 @@
     color: var(--letter-second-ligth-color);
     margin-bottom: 5px;
 }
+
+@media (max-width: 767px) {
+    .technologies img{
+        width: 35px;
+    }
+}

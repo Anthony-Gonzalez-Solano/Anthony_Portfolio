@@ -2,7 +2,7 @@
     width: 10vw;
   }
   .skills{  
-    padding-top: 30%;
+    padding-top: calc(90px + 16vw);
     position: relative;
     z-index: 10;
   }

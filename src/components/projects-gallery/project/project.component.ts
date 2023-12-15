@@ -23,14 +23,10 @@ export class ProjectComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.link)
-    console.log(this.gitlink)
   }
 
   openNewTab(link: String) {
     window.open(link, '_blank');
-    console.log(this.link)
-    console.log(this.gitlink)
   }
 
   selectTech(tech: String): String {

@@ -35,6 +35,9 @@
 .extended{
     max-height: 2000px;
 }
+.course-extended{
+    background: linear-gradient(0deg, var(--second-color), transparent);
+}
 
 .extended-div img{
     width: 100%;

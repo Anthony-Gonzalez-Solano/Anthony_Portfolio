@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+
+declare var window:any;
 
 @Component({
   selector: 'app-root',
@@ -10,7 +12,7 @@ export class AppComponent {
 
   radioChecked = '';
 
-  constructor(private translate: TranslateService){
+  constructor(private translate: TranslateService, private el: ElementRef){
     let ls = localStorage.getItem('lenguage')
     if(ls!=null){
       this.translate.setDefaultLang(ls)
@@ -34,6 +36,14 @@ export class AppComponent {
     this.translate.use(lenguage) 
     localStorage.setItem('lenguage',lenguage);
 
+  }
+
+  openNewTab(link: String) {
+    window.open(link, '_blank')
+  }
+
+  scrollToComponent(id:String) {
+    this.el.nativeElement.querySelector('#'+id).scrollIntoView({ behavior: 'smooth' });
   }
 
   title = 'AnthonyGS_Portafolio';

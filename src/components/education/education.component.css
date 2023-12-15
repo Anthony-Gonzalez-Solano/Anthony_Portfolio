@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    margin-top: 15%;
+    margin-top: calc(90px + 16vw);
     margin-bottom: 100px;
 }
 

@@ -3,10 +3,17 @@
         "en": "Inglés",
         "es": "Español"
     },
+    "menu":{
+        "inicio":"Inicio",
+        "habilidades":"Habilidades",
+        "trabajo":"Trabajo",
+        "proyectos":"Proyectos",
+        "educacion":"Educación"
+    },
     "titulos": {
         "portafolio": "PORTAFOLIO",
         "habilidades": "HABILIDADES",
-        "tecnologia": "TECNOLOGÍA",
+        "tecnologia": "Habilidades",
         "trabajo": "TRABAJO",
         "proyectos": "PROYECTOS",
         "otros": "OTROS PROYECTOS",
