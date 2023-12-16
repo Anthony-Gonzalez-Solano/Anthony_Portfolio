@@ -1,5 +1,6 @@
 .skills img{
     width: 10vw;
+    height: 10vw;
   }
   .skills{  
     padding-top: calc(90px + 16vw);
