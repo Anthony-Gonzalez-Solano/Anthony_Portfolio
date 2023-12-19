@@ -5,6 +5,7 @@
     flex-direction: column;
     cursor: pointer;
     position: relative;
+    justify-content: space-between;
     z-index: 11;
 }
 
@@ -19,15 +20,19 @@
 
 .technologies{
     position: absolute;
-    top: 0px;
-    right: 5px;
+    top: -30px;
+    right: 0px;
     display: flex;
     gap: 5px;
+    background: var(--letter-ligth-color);
+    padding: 3px 15px 3px 10px;
+    border-radius: 8px 0 5px 8px ;
+    box-shadow: 0 0 6px 1px black;
 }
 .project-container .technologies img{
     width: 25px;
     border-radius: 0px;
-    filter: drop-shadow(0 0 1px #ffffff49);
+    filter: drop-shadow(0 0 3px #00000091);
     box-shadow: none;
 }
 
@@ -37,6 +42,7 @@
 }
 .project-container img{
     width: 100%;
+    height: auto;
     border-radius: 15px;
     box-shadow: 0 0 5px 4px var(--firts-shadow-color);
 }
@@ -99,6 +105,10 @@
     background-color: var(--firts-color);
     backdrop-filter: blur(10px);
 }
+.modal-dialog{
+    width: 79%;
+    max-width: 80%;
+}
 .modal::-webkit-scrollbar {
     width: 5px;
   }
@@ -158,4 +168,12 @@ h6{
     margin-top: 10px;
     font-weight: 300;
     letter-spacing: .5px;
+}
+
+@media (max-width: 575px) {
+    .modal-dialog{
+        width: 100%;
+        max-width: 97.5%;
+    }
+    
 }

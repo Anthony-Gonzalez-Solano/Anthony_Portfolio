@@ -14,4 +14,37 @@
       id="portfolio"
     />
   </div>
+  <div class="item">
+    <app-project 
+      [title]="'proyectos.2.titulo' | translate"
+      [images]="[
+        '../../../assets/img/projects/chatbot/1.webp',
+        '../../../assets/img/projects/chatbot/2.webp',
+        '../../../assets/img/projects/chatbot/3.webp',
+        '../../../assets/img/projects/chatbot/4.webp',
+        '../../../assets/img/projects/chatbot/5.webp']"
+      [technologie]="['angular','express','mssql']"
+      [description]="'proyectos.2.descripcion' | translate"
+      [little_description]="'proyectos.2.descripcionCorta' | translate"
+      gitlink="https://github.com/Anthony-Gonzalez-Solano/ChatBot_With_Learning"
+      id="learning_chatbot"
+    />
+  </div>
+  <div class="item">
+    <app-project 
+      [title]="'proyectos.3.titulo' | translate"
+      [images]="[
+        '../../../assets/img/projects/tiktaktoe/1.webp',
+        '../../../assets/img/projects/tiktaktoe/2.webp',
+        '../../../assets/img/projects/tiktaktoe/3.webp',
+        '../../../assets/img/projects/tiktaktoe/4.webp',
+        '../../../assets/img/projects/tiktaktoe/5.webp']"
+      [technologie]="['react']"
+      [description]="'proyectos.3.descripcion' | translate"
+      [little_description]="'proyectos.3.descripcionCorta' | translate"
+      gitlink="https://github.com/Anthony-Gonzalez-Solano/Tic-Tac-Toe"
+      link="https://tic-tac-toe-alpha-inky.vercel.app"
+      id="tiktaktoe"
+    />
+  </div>
 </div>

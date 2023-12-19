@@ -38,7 +38,7 @@ export class ProjectComponent implements OnInit {
       case 'redux':
         return '../../../assets/icons/redux.svg';
       case 'express':
-        return '../../../assets/icons/express.svg';
+        return '../../../assets/icons/expresjs.svg';
       case '.net':
         return '../../../assets/icons/dotnet.svg';
       case 'django':
