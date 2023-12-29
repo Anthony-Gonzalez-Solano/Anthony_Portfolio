@@ -30,7 +30,9 @@
     },
     "habilidades": {
         "lenguajes": "Lenguajes de programación",
-        "bd": "Bases de datos"
+        "bd": "Bases de datos",
+        "nube":"En la nuve",
+        "otros":"Others"
     },
     "trabajos": {
         "texto1": "Tecnologías usadas:",
@@ -76,6 +78,10 @@
         "2": {
             "grado": "Certificado de Scrum Fundamentals",
             "institucion": "SCRUM Study"
+        },
+        "3": {
+            "grado": "Certificado de Docker Essentials",
+            "institucion": "Cognitive Class"
         }
     }
 }

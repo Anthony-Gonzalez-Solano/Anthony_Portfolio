@@ -94,3 +94,15 @@
   #Kotlin{
     filter: drop-shadow(0 0 10px #7e6fadb0);
   }
+  #Docker{
+    filter: drop-shadow(0 0 10px #009ec3b0);
+  }
+  #Github{
+    filter: drop-shadow(0 0 10px #f5f5f5b0);
+  }
+  #Mongodb{
+    filter: drop-shadow(0 0 10px #3aa94fb0);
+  }
+  #Bootstrap{
+    filter: drop-shadow(0 0 10px #7957aeb0);
+  }

@@ -53,6 +53,12 @@ export class ExperienceCardComponent implements OnInit {
         return '../../../assets/icons/postgresql.svg';
       case 'kotlin':
         return '../../../assets/icons/kotlin.svg';
+      case 'mongodb':
+        return '../../../assets/icons/mongo.svg';
+      case 'docker':
+        return '../../../assets/icons/docker.svg';
+      case 'bootstrap':
+        return '../../../assets/icons/bootstrap.svg';
       default:
         return 'no encontrado';
     }
